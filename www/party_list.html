@@ -1,0 +1,30 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+
+<head>
+	<title>Nearby Parties</title>
+	<link rel="stylesheet" type="text/css" href="css/party_list.css" />
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="node_modules/underscore/underscore.js"></script>
+  	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  	<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+	<script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+	    Parse.initialize("eSYKShtc2RBkaFhDOAMJdFruVKn5j6iswBbLChQt", "ZN0YofVV776oRu0lBNSvbPTLGktZl05lZZ4GksGz");
+    </script>
+	<script src="bower-quojs-3.0.5/quo.js"></script>
+    <script src="js/party_list.js"></script>
+</head>
+
+<body onload="getPartyData()">
+
+	<dl id="party_list">
+	</dl>
+
+</body>
+
+</html>
