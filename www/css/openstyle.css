@@ -1,0 +1,23 @@
+/*Start Body*/
+
+body {
+background-color: #B0C4DE;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	padding-top: 100px;
+	font-family: Candara, Calibri, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+	font-size: 70px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.3999996185303px; 
+}
+
+/*Styling for background*/
