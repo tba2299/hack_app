@@ -39,6 +39,13 @@
 		7E7966E61810823500FA85AD /* icon-small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DC1810823500FA85AD /* icon-small.png */; };
 		7E7966E71810823500FA85AD /* icon-small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E7966DD1810823500FA85AD /* icon-small@2x.png */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
+		2DD70F1185AF4E53AB3E55F2 /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 4474FB9973B54F61BF1F9962 /* CDVInAppBrowser.m */; };
+		23C97DE4A32E465E9DBFC55B /* FacebookConnectPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4C547BFE6F4CD58DADBE61 /* FacebookConnectPlugin.m */; };
+		D1872289A82C4960AA48FDF0 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F69A2F6B9674C9FB9BD4D40 /* FacebookSDK.framework */; };
+		704693973F4047529F6CF527 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF08E01B47040E68D6CC34A /* libsqlite3.dylib */; };
+		4B6B6792B6F54531B713CC75 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C141D651C4D4E3685C82040 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		D07E65FBB6EA4F19A287352C /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3444C4EF0F14F048D6AD9AA /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3E74FFD2F3B64C85A574A031 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72930309E2B8455E8EFA7193 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +111,15 @@
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
 		EB87FDF41871DAF40020F90C /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = ../../config.xml; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = "Hello World/config.xml"; sourceTree = "<group>"; };
+		4474FB9973B54F61BF1F9962 /* CDVInAppBrowser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVInAppBrowser.m"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		9E643480751340D9B8D17F6D /* CDVInAppBrowser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVInAppBrowser.h"; path = "org.apache.cordova.inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EE4C547BFE6F4CD58DADBE61 /* FacebookConnectPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "FacebookConnectPlugin.m"; path = "com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		4C3F7E362ADA4039ABD9AD56 /* FacebookConnectPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "FacebookConnectPlugin.h"; path = "com.phonegap.plugins.facebookconnect/FacebookConnectPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		2F69A2F6B9674C9FB9BD4D40 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "FacebookSDK.framework"; path = "Hello World/Plugins/com.phonegap.plugins.facebookconnect/FacebookSDK.framework"; sourceTree = "<group>"; };
+		1DF08E01B47040E68D6CC34A /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libsqlite3.dylib"; path = "usr/lib/libsqlite3.dylib"; sourceTree = SDKROOT; fileEncoding = 4; };
+		5C141D651C4D4E3685C82040 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Social.framework"; path = "System/Library/Frameworks/Social.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		C3444C4EF0F14F048D6AD9AA /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Accounts.framework"; path = "System/Library/Frameworks/Accounts.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		72930309E2B8455E8EFA7193 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Security.framework"; path = "System/Library/Frameworks/Security.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +131,11 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				D1872289A82C4960AA48FDF0 /* FacebookSDK.framework in Frameworks */,
+				704693973F4047529F6CF527 /* libsqlite3.dylib in Frameworks */,
+				4B6B6792B6F54531B713CC75 /* Social.framework in Frameworks */,
+				D07E65FBB6EA4F19A287352C /* Accounts.framework in Frameworks */,
+				3E74FFD2F3B64C85A574A031 /* Security.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +208,11 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				2F69A2F6B9674C9FB9BD4D40 /* FacebookSDK.framework */,
+				1DF08E01B47040E68D6CC34A /* libsqlite3.dylib */,
+				5C141D651C4D4E3685C82040 /* Social.framework */,
+				C3444C4EF0F14F048D6AD9AA /* Accounts.framework */,
+				72930309E2B8455E8EFA7193 /* Security.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,6 +228,10 @@
 		307C750510C5A3420062BCA9 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
+				4474FB9973B54F61BF1F9962 /* CDVInAppBrowser.m */,
+				9E643480751340D9B8D17F6D /* CDVInAppBrowser.h */,
+				EE4C547BFE6F4CD58DADBE61 /* FacebookConnectPlugin.m */,
+				4C3F7E362ADA4039ABD9AD56 /* FacebookConnectPlugin.h */,
 			);
 			name = Plugins;
 			path = "Hello World/Plugins";
@@ -386,6 +416,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
+				2DD70F1185AF4E53AB3E55F2 /* CDVInAppBrowser.m in Sources */,
+				23C97DE4A32E465E9DBFC55B /* FacebookConnectPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +460,10 @@
 				);
 				PRODUCT_NAME = "Hello World";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Hello World/Plugins/com.phonegap.plugins.facebookconnect\"",
+				);
 			};
 			name = Debug;
 		};
@@ -457,6 +493,10 @@
 				);
 				PRODUCT_NAME = "Hello World";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"Hello World/Plugins/com.phonegap.plugins.facebookconnect\"",
+				);
 			};
 			name = Release;
 		};

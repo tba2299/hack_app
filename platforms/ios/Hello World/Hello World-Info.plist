@@ -178,5 +178,18 @@
         <string>{768, 1024}</string>
       </dict>
     </array>
+    <key>FacebookAppID</key>
+    <string>475577662591924</string>
+    <key>FacebookDisplayName</key>
+    <string>hack_app party platform</string>
+    <key>CFBundleURLTypes</key>
+    <array>
+      <dict>
+        <key>CFBundleURLSchemes</key>
+        <array>
+          <string>fb475577662591924</string>
+        </array>
+      </dict>
+    </array>
   </dict>
 </plist>

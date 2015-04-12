@@ -4,8 +4,116 @@
         "uninstalled": []
     },
     "config_munge": {
-        "files": {}
+        "files": {
+            "framework": {
+                "parents": {
+                    "CoreGraphics.framework": [
+                        {
+                            "xml": "false",
+                            "count": 1
+                        },
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "libsqlite3.dylib": [
+                        {
+                            "xml": false,
+                            "count": 1
+                        }
+                    ],
+                    "Social.framework": [
+                        {
+                            "xml": true,
+                            "count": 1
+                        }
+                    ],
+                    "Accounts.framework": [
+                        {
+                            "xml": true,
+                            "count": 1
+                        }
+                    ],
+                    "Security.framework": [
+                        {
+                            "xml": true,
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"InAppBrowser\"><param name=\"ios-package\" value=\"CDVInAppBrowser\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"FacebookConnectPlugin\"><param name=\"ios-package\" value=\"FacebookConnectPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<plugin name=\"FacebookConnectPlugin\" value=\"FacebookConnectPlugin\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://m.facebook.com\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://graph.facebook.com\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://api.facebook.com\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://*.fbcdn.net\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<access origin=\"https://*.akamaihd.net\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Info.plist": {
+                "parents": {
+                    "FacebookAppID": [
+                        {
+                            "xml": "<string>475577662591924</string>",
+                            "count": 1
+                        }
+                    ],
+                    "FacebookDisplayName": [
+                        {
+                            "xml": "<string>hack_app party platform</string>",
+                            "count": 1
+                        }
+                    ],
+                    "CFBundleURLTypes": [
+                        {
+                            "xml": "<array><dict><key>CFBundleURLSchemes</key><array><string>fb475577662591924</string></array></dict></array>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
     },
-    "installed_plugins": {},
+    "installed_plugins": {
+        "org.apache.cordova.inappbrowser": {
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        },
+        "com.phonegap.plugins.facebookconnect": {
+            "APP_ID": "475577662591924",
+            "APP_NAME": "hack_app party platform",
+            "PACKAGE_NAME": "com.phonegap.helloworld"
+        }
+    },
     "dependent_plugins": {}
 }
